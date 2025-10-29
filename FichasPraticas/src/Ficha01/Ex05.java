@@ -35,10 +35,11 @@ public class Ex05 {
 
         pesonumero3 = input.nextDouble();
 
-        mediaponderada = ( (numero1 * pesonumero1) + (numero2 * pesonumero2) + (numero3 * pesonumero3) ) / pesonumero1 + pesonumero2 + pesonumero3;
+        mediaponderada = ( (numero1 * pesonumero1) + (numero2 * pesonumero2) + (numero3 * pesonumero3) ) / (pesonumero1 + pesonumero2 + pesonumero3);
 
         System.out.println("Média aritmética: " + mediaaritmetica);
-        System.out.println("Média ponderada: ") + mediaponderada)}
+        System.out.println("Média ponderada: " + mediaponderada);
+    }
 
 
     }
