@@ -25,8 +25,7 @@ public class Ex09 {
             System.out.println("" + numero2);}
 
         if (numero3<numero1 && numero3<numero2) {
-            System.out.println("" + numero3);}
-        }
+            System.out.println("" + numero3);}}
 
 
 }
