@@ -1,0 +1,24 @@
+package Ficha02;
+
+import java.util.Scanner;
+
+public class Ex01 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        int numero1, numero2;
+
+        System.out.print("Introduza um número: ");
+        numero1 = input.nextInt();
+
+        System.out.print("Introduza outro número ");
+        numero2= input.nextInt();
+
+        if (numero1 > numero2) {
+
+        System.out.println("Maior: " + numero1);
+        } else {
+
+        System.out.println("Maior: " + numero2);}
+    }}
+
