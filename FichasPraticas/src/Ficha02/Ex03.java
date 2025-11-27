@@ -25,7 +25,7 @@ public class Ex03 {
 
         if (salario>25000){
 
-        System.out.println("Paga taca de 40%: " + salario * .40);}}
+        System.out.println("Paga taxa de 40%: " + salario * .40);}}
 
 
 }

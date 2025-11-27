@@ -9,10 +9,7 @@ public class Ex07 {
         System.out.print("Introduza um número: ");
         int numero=input.nextInt();
 
-        int metade = numero / 2;
-        int reconstruido = metade * 2;
-
-        if (reconstruido == numero) {
+        if (numero%2==0) {
             System.out.println("O número é par.");
         } else {
             System.out.println("O número é ímpar.");}}
