@@ -15,10 +15,14 @@ public class Ex02 {
 
         System.out.println("__________________________");
 
+
+        double total=0;
+
         for (int i = 0; i < vetor.length; i++) {
-            System.out.println("Comissões do mês[" + i + "]: " + vetor[i]);
+            total+=vetor[i];
         }
 
+        System.out.println("Total de comissões: " + total);
 
     }
 }
