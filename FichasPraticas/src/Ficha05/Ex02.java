@@ -16,7 +16,7 @@ public class Ex02 {
         System.out.println("__________________________");
 
         for (int i = 0; i < vetor.length; i++) {
-            System.out.println("vetor[" + i + "]: " + vetor[i]);
+            System.out.println("Comissões do mês[" + i + "]: " + vetor[i]);
         }
 
 
