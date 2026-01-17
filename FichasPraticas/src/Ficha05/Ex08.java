@@ -11,7 +11,7 @@ public class Ex08 {
 
         for (int i = 0; i < 3; i++) {
             for (int x = 0; x < 3; x++) {
-                System.out.print("Introduza na linha[" + i + "] e na coluna [" + x + "] os valores pretendios: ");
+                System.out.print("Introduza na linha[" + i + "] e na coluna [" + x + "] os valores pretendidos: ");
                 matriz[i][x] = input.nextInt();
             }
         }
